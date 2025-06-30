@@ -11,11 +11,16 @@
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.15s;
+    transition: opacity 0.15s;
   }
 
   .Apply_on_Company_WebSite-button:hover {
     background-color: rgb(2, 70, 138);
     }
+
+  .Apply_on_Company_WebSite-button:active {
+    opacity: 0.7;
+  }
 
 </style>
 <body>
@@ -35,11 +40,15 @@
     margin-left: 16px;
     transition: background-color 0.15s,
     border-width 0.15s;
+    transition: opacity 0.15s;
   }
     .save-button:hover {
     background-color: rgb(226, 240, 254);
     border-width: 2px;
     }
+    .save-button:active {
+    opacity: 0.7;
+  }
 </style>
 <body>
   <button class="save-button">Save</button>
