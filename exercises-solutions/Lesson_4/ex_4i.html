@@ -1,0 +1,39 @@
+<!--4i.Stretch-->
+<!DOCTYPE html>
+
+<style>
+  .stretch-button {
+
+    background-color: green;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: padding-top 1s,
+      padding-bottom 1s,
+      padding-left 1s,
+      padding-right 1s,
+      opacity 0.15s;
+
+  }
+
+  .stretch-button:hover {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .stretch-button:active{
+    opacity: 0.5;
+  }
+</style>
+
+<body>
+  <button class="stretch-button">
+    Stretch
+  </button>
+</body>
