@@ -1,0 +1,46 @@
+<!--4k. Margin and padding together-->
+<!DOCTYPE html>
+
+<style>
+
+  .stretch-button{
+    background-color:green;
+    color: white; 
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 18px;
+    vertical-align: top;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    transition: padding 0.15s,
+      marigin 0.15s;
+  }
+  .stretch-button:hover{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+</style>
+
+<body>
+  <button class="stretch-button">
+    One
+  </button>
+  <button class="stretch-button">
+    Two
+  </button>
+
+  <button class="stretch-button">
+    Three
+  </button>
+</body>
