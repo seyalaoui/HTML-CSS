@@ -1,0 +1,47 @@
+p {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.yes-button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgb(100, 100, 100);
+  transition: opacity 0.15s;
+}
+.yes-button:hover{
+  opacity: 0.8;
+}
+.yes-button:active{
+  opacity: 0.5;
+}
+
+.no-button{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgb(100, 100, 100);
+  transition: opacity 0.15s;
+}
+.no-button:hover{
+  opacity: 0.8;
+}
+.no-button:active{
+  opacity: 0.5;
+}
