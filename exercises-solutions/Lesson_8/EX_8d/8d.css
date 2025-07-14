@@ -30,6 +30,7 @@ input{
   font-size: 18px;
   font-weight: bold;
   border-radius: 8px;
+  cursor: pointer;
   transition: opacity 0.15s;
 }
 
