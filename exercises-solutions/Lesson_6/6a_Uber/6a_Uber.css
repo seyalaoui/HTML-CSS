@@ -1,4 +1,4 @@
-.Request-button{
+.Request-button {
   background-color: black;
   color: white;
   border: none;
@@ -10,10 +10,12 @@
 
   cursor: pointer;
   transition: opacity 0.15s;
-  }
+}
+
 .Request-button:hover {
   opacity: 0.8;
-  }
+}
+
 .Request-button:active {
   opacity: 0.5;
-  }
+}
