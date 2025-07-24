@@ -29,9 +29,11 @@
   vertical-align: middle;
   transition: opacity 0.15s;
 }
-.tweet-button:hover{
+
+.tweet-button:hover {
   opacity: 0.8;
 }
-.tweet-button:active{
+
+.tweet-button:active {
   opacity: 0.5;
 }
