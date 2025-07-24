@@ -1,4 +1,4 @@
-input{
+input {
   border-color: rgb(200, 200, 200);
   border-style: solid;
   border-radius: 8px;
@@ -11,11 +11,11 @@ input{
   margin-bottom: 12px;
 }
 
-.name{
+.name {
   width: 148px;
 }
 
-.email{
+.email {
   display: block;
   width: 335px;
 }
@@ -34,10 +34,10 @@ input{
   transition: opacity 0.15s;
 }
 
-.button:hover{
+.button:hover {
   opacity: 0.8;
 }
 
-.button:active{
+.button:active {
   opacity: 0.5;
 }

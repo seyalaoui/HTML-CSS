@@ -19,14 +19,16 @@ p {
   box-shadow: 2px 2px 4px rgb(100, 100, 100);
   transition: opacity 0.15s;
 }
-.yes-button:hover{
+
+.yes-button:hover {
   opacity: 0.8;
 }
-.yes-button:active{
+
+.yes-button:active {
   opacity: 0.5;
 }
 
-.no-button{
+.no-button {
   background-color: red;
   color: white;
   border: none;
@@ -39,9 +41,11 @@ p {
   box-shadow: 2px 2px 4px rgb(100, 100, 100);
   transition: opacity 0.15s;
 }
-.no-button:hover{
+
+.no-button:hover {
   opacity: 0.8;
 }
-.no-button:active{
+
+.no-button:active {
   opacity: 0.5;
 }

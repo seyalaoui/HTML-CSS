@@ -1,14 +1,14 @@
-p{
+p {
   font-family: Arial;
   font-weight: solid;
 }
 
-.titel{
+.titel {
   font-size: 40px;
   margin-bottom: 25px;
 }
 
-input{
+input {
   background-color: rgb(240, 240, 240);
   border-color: rgb(200, 200, 200);
   border-style: solid;
@@ -23,15 +23,16 @@ input{
   width: 350px;
 }
 
-.location{
+.location {
   display: block;
 }
 
-.destination{
+.destination {
   display: block;
 
 }
-.Request-button{
+
+.Request-button {
   background-color: black;
   color: white;
   border: none;
@@ -45,31 +46,35 @@ input{
   margin-right: 8px;
   transition: opacity 0.15s;
 }
-  .Request-button:hover {
-    opacity: 0.8;
-  }
-  .Request-button:active {
-    opacity: 0.5;
-  }
 
-  .later-button{
-    background-color: rgb(200, 200, 200);
-    color: black;
-    border: none;
-    margin-left: 4px;
-    margin-top: 20px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
+.Request-button:hover {
+  opacity: 0.8;
+}
 
-    cursor: pointer;
-    margin-right: 8px;
-    transition: opacity 0.15s;
-  }
-  .later-button:hover{
-    opacity: 0.8;
-  }
-  .later-button:active{
-    opacity: 0.5;
-  }
+.Request-button:active {
+  opacity: 0.5;
+}
+
+.later-button {
+  background-color: rgb(200, 200, 200);
+  color: black;
+  border: none;
+  margin-left: 4px;
+  margin-top: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.later-button:hover {
+  opacity: 0.8;
+}
+
+.later-button:active {
+  opacity: 0.5;
+}
